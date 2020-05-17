@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Add Description Comment
+
 if [[ "${UID}" -ne 0 ]]
 then
   echo 'Please run with sudo or root.'
